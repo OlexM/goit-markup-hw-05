@@ -59,7 +59,7 @@
       <section class="section-hero">
         <div class="container hero">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-btn">Order Service</button>
+          <button data-modal-open type="button" class="hero-btn">Order Service</button>
         </div>
       </section>
       <!-- section-features -->
@@ -417,5 +417,14 @@
         </ul>
       </div>
     </footer>
+    <div class="backdrop">
+      <div class="modal">
+        <button data-modal-close class="modal-close-btn">
+          <svg class="modal-close-icon" width="8px" height="8px">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg></button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
